@@ -108,7 +108,8 @@ function initMap() {
     return {
       icon: {
         url: `img/icon_business.png?raw=true`,
-        scaledSize: new google.maps.Size(64, 64)
+        scaledSize: new google.maps.Size(64, 64),
+        visible: true
       }
     };
   });
