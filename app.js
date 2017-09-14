@@ -101,7 +101,7 @@ function initMap() {
   });
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('/stores.json');
+  map.data.loadGeoJson('https://raw.githubusercontent.com/texoma-classics/store-locator/master/stores.json');
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle(feature => {
