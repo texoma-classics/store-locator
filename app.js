@@ -113,7 +113,8 @@ function initMap() {
       }
     };
   });
-
+  var markers = map.data;
+  
   const apiKey = 'AIzaSyAaPJmeasIKqNQqA65KpLRZXp2vib41Mqc';
   const infoWindow = new google.maps.InfoWindow();
 
