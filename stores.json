@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          33.621054,
+          -96.660944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "business", 
+        "hours": "8am - 5pm", 
+        "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.", 
+        "name": "Texoma Classics Headquarters", 
+        "phone": "+44 20 1234 5678"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          34.01026780000001,
+          -96.55834859999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "business", 
+        "hours": "8am - 5pm", 
+        "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.", 
+        "name": "Texoma Classics - Oklahoma", 
+        "phone": "+44 1717 17171"
+      }
+    }
+  ]
+}
