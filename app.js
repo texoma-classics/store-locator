@@ -139,8 +139,8 @@ function initMap() {
     infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
     infoWindow.open(map);
   });
-  
+
   var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+            {imagePath: 'img/m'});
       }
 }
