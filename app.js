@@ -101,7 +101,7 @@ function initMap() {
   });
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('stores.json');
+  map.data.loadGeoJson('/stores.json');
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle(feature => {
