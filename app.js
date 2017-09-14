@@ -101,13 +101,13 @@ function initMap() {
   });
 
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('https://raw.githubusercontent.com/texoma-classics/store-locator/master/stores.json');
+  map.data.loadGeoJson('stores.json');
 
   // Define the custom marker icons, using the store's "category".
   map.data.setStyle(feature => {
     return {
       icon: {
-        url: `https://github.com/texoma-classics/store-locator/blob/master/img/icon_business.png?raw=true`,
+        url: `img/icon_business.png?raw=true`,
         scaledSize: new google.maps.Size(64, 64)
       }
     };
