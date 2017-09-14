@@ -4,7 +4,7 @@
     {
       "geometry": {
         "type": "Point", 
-        "coordinates": [-96.660932600, 33.6210568]
+        "coordinates": [-96.660932600, 33.6210568] //LONG THEN LAT
       }, 
       "type": "Feature", 
       "properties": {
