@@ -113,8 +113,14 @@ function initMap() {
       }
     };
   });
-  var storesData = map.data.loadGeoJson('stores.json').features;
-  var markers;
+  
+  var storesData = map.data.loadGeoJson('stores.json').features; //clean up code 
+  var markers = []; // create array of coordinates to pass to MarkerCluster
+
+  // loops through loadGeoJson data, pushes coordinates into 'markers' array for MarkerClusterer object
+  for (var i = 0; i < storesData.length; i++) {
+    markers.push(storesData[i].geometry.coordinates);
+  }
 
   const apiKey = 'AIzaSyAaPJmeasIKqNQqA65KpLRZXp2vib41Mqc';
   const infoWindow = new google.maps.InfoWindow();
