@@ -107,7 +107,7 @@ function initMap() {
   map.data.setStyle(feature => {
     return {
       icon: {
-        url: `img/icon_${feature.getProperty('category')}.png`,
+        url: `img/icon_business.png`,
         scaledSize: new google.maps.Size(64, 64)
       }
     };
