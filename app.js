@@ -107,7 +107,7 @@ function initMap() {
   map.data.setStyle(feature => {
     return {
       icon: {
-        url: `img/icon_business.png`,
+        url: `https://github.com/texoma-classics/store-locator/blob/master/img/icon_business.png?raw=true`,
         scaledSize: new google.maps.Size(64, 64)
       }
     };
